@@ -25,7 +25,7 @@ function setup() {
   dx = (TWO_PI / period) * xspacing;
   yvalues = new Array(floor(w / xspacing));
 
-  // noLoop();
+  noLoop();
 }
 
 function draw(){
