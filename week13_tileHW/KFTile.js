@@ -17,7 +17,7 @@ class KFTile extends Tile{
 	display(){
 
 		fill(255, 252, 181);
-		rect(0, 0, this.width, this.height);
+		rect(0, 0, tileSize, tileSize);
 
 		this.calcWave();
 		this.renderWave();
